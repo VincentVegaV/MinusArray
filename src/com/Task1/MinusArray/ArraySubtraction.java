@@ -11,7 +11,10 @@ public class ArraySubtraction {
         {
             for(int j=0; j < array1.length; j++)
             {
+                if (array1[j].equals(array2[i]))
+                {
 
+                }
             }
         }
 
