@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c367016b-84fc-44ad-b997-4ab646f2506a" name="Default" comment="0.02&#10;&#10;Notes:&#10;checkTypeArray method added">
+    <list default="true" id="c367016b-84fc-44ad-b997-4ab646f2506a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="ArraySubtraction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -60,15 +58,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" />
-        <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" />
         <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java" />
+        <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
-    <option name="width" value="932" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1836" />
+    <option name="y" value="-19" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532379729253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0.02&#10;&#10;Notes:&#10;checkTypeArray method added">
+      <created>1533138724042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533138724042</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
