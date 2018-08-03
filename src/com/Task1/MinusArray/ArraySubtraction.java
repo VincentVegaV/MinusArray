@@ -5,22 +5,23 @@ public class ArraySubtraction
 
     public String[] getSubtractedArray(String[] array1, String[] array2)
     {
+        int l = array1.length;
+        int j;
+        for(j = 0; j < l; j++){ // Поиск удаляемого элемента
 
-        int n = array1.length - array2.length;
-        String[] resultArray = new String[n];
-
-        for (int i = 0; i <= array2.length - 1; i++)
-        {
-            for (int j = 0; j <= array1.length - 1; j++)
-            {
-                if (array1[j].equals(array2[i]))
-                {
-
+                if(array1[j].equals("Galina")){
+                    break;
                 }
             }
-        }
 
-        return resultArray;
+
+        for(int k = j; k < l-1; k++){
+            // Сдвиг последующих элементов
+            array1[k] = array1[k+1];
+        }
+        l--;
+
+        return array1;
     }
 
 

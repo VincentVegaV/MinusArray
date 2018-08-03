@@ -4,6 +4,12 @@ public class Runner {
     public static void main(String[] args)
     {
         ArrayData arr = new ArrayData();
-        System.out.println(ArraySubtraction.checkTypeArray(arr.array2));
+        ArraySubtraction subs = new ArraySubtraction();
+
+        for(String x : subs.getSubtractedArray(arr.array1, arr.array2))
+        {
+            System.out.print(x + ", ");
+        }
+
     }
 }
