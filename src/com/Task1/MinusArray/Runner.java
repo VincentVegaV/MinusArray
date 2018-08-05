@@ -10,5 +10,12 @@ public class Runner {
         {
             System.out.print(x + " ");
         }
+
+        System.out.print("\n");
+
+        for(String z : subs.getSubtractedCollection(arr.array1, arr.array2))
+        {
+            System.out.print(z + " ");
+        }
     }
 }

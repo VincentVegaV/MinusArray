@@ -1,11 +1,12 @@
 package com.Task1.MinusArray;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-public class ArraySubtraction
+class ArraySubtraction
 {
 
-    public String[] getSubtractedArray(String[] array1, String[] array2)
+    String[] getSubtractedArray(String[] array1, String[] array2)
     {
         int len1 = array1.length;
         int len2 = array2.length;
@@ -34,10 +35,14 @@ public class ArraySubtraction
     }
 
 
-    public ArrayList<String> getSubstractedCollection()
+    ArrayList<String> getSubtractedCollection(String[] array1, String[] array2)
     {
+        ArrayList<String> arrayList1 = new ArrayList<>(Arrays.asList(array1));
+        ArrayList<String> arrayList2 = new ArrayList<>(Arrays.asList(array2));
 
-        return res;
+        arrayList1.removeAll(arrayList2);
+
+        return arrayList1;
     }
 
 }
