@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c367016b-84fc-44ad-b997-4ab646f2506a" name="Default" comment="0.04">
+    <list default="true" id="c367016b-84fc-44ad-b997-4ab646f2506a" name="Default" comment="0.07&#10;&#10;ArrayList subtraction fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +16,14 @@
     <session id="1750511769">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1733" />
-          <entry key="txt" value="2" />
+          <entry key="java" value="1972" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1733" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="1972" />
+          <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -38,6 +36,16 @@
           <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -45,29 +53,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding>
-                <element signature="method#getSubtractedArray#0;class#ArraySubtraction#0" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,9 +98,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" />
         <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java" />
         <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java" />
+        <option value="$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java" />
       </list>
     </option>
   </component>
@@ -246,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533417218185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0.05&#10;&#10;Array substraction added">
+      <created>1533470240159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533470240159</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0.07&#10;&#10;ArrayList subtraction fixed">
+      <created>1533480809957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533480809957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -262,7 +284,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26622295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,31 +312,41 @@
     <MESSAGE value="0.02&#10;&#10;Notes:&#10;checkTypeArray method added" />
     <MESSAGE value="0.03" />
     <MESSAGE value="0.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.04" />
+    <MESSAGE value="0.05&#10;&#10;Array substraction added" />
+    <MESSAGE value="0.06&#10;&#10;ArrayList subtraction added" />
+    <MESSAGE value="0.07&#10;&#10;ArrayList subtraction fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.07&#10;&#10;ArrayList subtraction fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/Comparison.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArraySubtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="510">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
           <folding>
-            <element signature="method#getSubtractedArray#0;class#ArraySubtraction#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Task1/MinusArray/ArrayData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
