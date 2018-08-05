@@ -8,8 +8,7 @@ public class Runner {
 
         for(String x : subs.getSubtractedArray(arr.array1, arr.array2))
         {
-            System.out.print(x + ", ");
+            System.out.print(x + " ");
         }
-
     }
 }

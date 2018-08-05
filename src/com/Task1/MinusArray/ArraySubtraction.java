@@ -1,5 +1,7 @@
 package com.Task1.MinusArray;
 
+import java.util.ArrayList;
+
 public class ArraySubtraction
 {
 
@@ -7,35 +9,35 @@ public class ArraySubtraction
     {
         int len1 = array1.length;
         int len2 = array2.length;
-        int n = len1 - len2;
-        int q = 0;
-        String[] buffArray = new String[n];
-
+        int resL = 0;
+        int n = len1-len2;
+        String[] res = new String[n];
+        boolean isFound = false;
 
         for(int i=0; i<=len1-1; i++)
         {
-            if(!array1[i].equals(array2[0]) || !array1[i].equals(array2[1]) || !array1[i].equals(array2[2]))
+            isFound = false;
+            for(int j=0; j<=len2-1; j++)
             {
-                buffArray[q] = array1[i];
-                q++;
+                if(array1[i].equals(array2[j]))
+                {
+                    isFound = true;
+                }
+            }
+            if (!isFound)
+            {
+                res[resL] = array1[i];
+                resL++;
             }
         }
-
-
-        return buffArray;
+        return res;
     }
 
 
-    static Boolean checkTypeArray(Object array) {
-        boolean type;
-        type = array instanceof String[];
+    public ArrayList<String> getSubstractedCollection()
+    {
 
-        return type;
+        return res;
     }
-
-
-
-//метод проверки на пустой массив
-
 
 }
