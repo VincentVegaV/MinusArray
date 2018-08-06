@@ -13,7 +13,7 @@ class ArraySubtraction
         int resL = 0;
         int n = len1-len2;
         String[] res = new String[n];
-        boolean isFound = false;
+        boolean isFound;
 
         for(int i=0; i<=len1-1; i++)
         {
