@@ -3,9 +3,23 @@ package com.Task1.MinusArray;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * "ArraySubtraction" class contain methods that can subtract
+ * two string arrays in different ways: using arrays or collections.
+ *
+ * @author a2.verbitsky
+ * @version 1.0
+ */
 class ArraySubtraction
 {
 
+    /**
+     *
+     *
+     * @param array1
+     * @param array2
+     * @return
+     */
     String[] getSubtractedArray(String[] array1, String[] array2)
     {
         int len1 = array1.length;
