@@ -14,11 +14,11 @@ class ArraySubtraction
 {
 
     /**
+     * Method subtract array2 from array1 (using indexes) and returns result array
      *
-     *
-     * @param array1
-     * @param array2
-     * @return
+     * @param array1 string type array
+     * @param array2 string type array
+     * @return String type result array (array1 - array2)
      */
     String[] getSubtractedArray(String[] array1, String[] array2)
     {
@@ -48,7 +48,13 @@ class ArraySubtraction
         return res;
     }
 
-
+    /**
+     * Method subtract array2 from array1 (using collections) and returns result array
+     *
+     * @param array1 string type array
+     * @param array2 string type array
+     * @return String type result arrayList (collection1 - collection2)
+     */
     ArrayList<String> getSubtractedCollection(String[] array1, String[] array2)
     {
         ArrayList<String> arrayList1 = new ArrayList<>(Arrays.asList(array1));
